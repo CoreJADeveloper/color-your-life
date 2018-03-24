@@ -1,0 +1,63 @@
+.color-pallate{
+    margin-bottom: 50px;
+}
+
+.left-roller{
+    width: 193px;
+    height: 150px;
+    background: #bcffce;
+}
+
+.middle-roller{
+    width: 514px;
+    height: 150px;
+    background: #a1b1a5;
+}
+
+.right-roller{
+    width: 193px;
+    height: 150px;
+    background: #7c8e81;
+}
+
+.left{
+    z-index: 3;
+    position: absolute;
+    width: 193px;
+    height: 587px;
+    background: #bcffce;
+}
+
+.middle{
+    z-index: 2;
+    position: absolute;
+    width: 707px;
+    height: 587px;
+    background: #a1b1a5;
+}
+
+.right{
+    z-index: 1;
+    position: absolute;
+    width: 900px;
+    height: 587px;
+    background: #7c8e81;
+}
+
+.main{
+    position: relative;
+    z-index: 6;
+    background-image: url('../images/color-dream.png');
+    height: 587px;
+    width: 900px;
+}
+
+.color-your-life .iris-picker{
+    z-index: 10;
+}
+
+.color-your-life .wp-picker-container{
+    margin: 10px;
+    padding: 5px;
+    background: #ffffff;
+}
